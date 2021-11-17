@@ -1,0 +1,10 @@
+// To draw outline on focused element of webpage following is the css
+:focus-visible{
+  outline: 1px solid red;
+}
+
+// To show dropdown menu on focus by keyboard following is the css
+https://css-tricks.com/solved-with-css-dropdown-menus/
+.header .nav li: focus-within .dropdown{
+  visiblity: visible;
+}
